@@ -9,8 +9,10 @@ function sendMail1() {
     var transport = nodemailer.createTransport({
         service: 'Gmail',
         auth: {
-            user: process.env.EMAIL,
-            pass: process.env.PASSWORD
+            user: 'sanyam1043642@gmail.com',
+            pass: 'Sanyam@1043642'
+            // user: process.env.EMAIL,
+            // pass: process.env.PASSWORD
         }
     });
 
