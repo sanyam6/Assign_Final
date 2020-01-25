@@ -1,9 +1,10 @@
 exports.config = {
   capabilities: {
     'browserName': 'chrome',
-  },
-   directConnect: true,
-  //seleniumAddress: 'http://localhost:4444/wd/hub',
+    },
+   
+    directConnect: true,
+    jasmineNodeOpts: {defaultTimeoutInterval: 100000},
   specs: ['..\\test\\test_new.js']
 };
 
