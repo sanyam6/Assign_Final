@@ -3,6 +3,8 @@ var nodemailer = require("nodemailer");
 
 sendMail1();
 
+
+
 function sendMail1() {
     var transport = nodemailer.createTransport({
         service: 'Gmail',
