@@ -25,8 +25,8 @@ function sendMail1() {
         text: 'PFA the file with this mail', // plaintext body
         attachments: [
             {
-                'path' : 'C:\\Users\\SANYAM\\Desktop\\ABC.txt',
-             //  'path': 'C:\\Users\\SANYAM\\Downloads\\tf16402488.dotx',
+             //   'path' : 'C:\\Users\\SANYAM\\Desktop\\ABC.txt',
+               'path': 'C:\\Users\\SANYAM\\Downloads\\tf16402488.dotx',
              
             }]
     };
