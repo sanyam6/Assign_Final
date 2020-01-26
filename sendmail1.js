@@ -31,9 +31,9 @@ function sendMail1() {
             }]
     };
 
-    transport.sendMail(mailOptions, function (error, info) {
-        if (error) {
-            console.log(error);
+    transport.sendMail(mailOptions, function (err, info) {
+        if (err) {
+            console.log(err);
         } else {
             console.log("Message sent: " + info);
            
